@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-image: radial-gradient(ellipse at top,transparent, #690000),
+            radial-gradient(ellipse at bottom,transparent, #690000);
+    margin: 20px auto;
+    padding-top: 70px;
+}
+
+.content{
+    width: 90%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.navbar{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+   
+}
+
+li{
+    padding: 0 25px 0 25px;
+    margin: auto;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(245, 7, 7);
+}
+
+ul a:hover{
+    border-bottom: 2px solid red;
+}
+figure img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+
+.buttom{
+
+    width: 130px;
+    height: 30px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+.buttom a{
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.images-right img{
+    width: 200px;
+    height: 200px;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    margin-left: 40px;
+    flex: 2;
+}
+
+.images-right{
+    flex: 1;
+}
+
